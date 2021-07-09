@@ -835,6 +835,13 @@
     "@truffle/interface-adapter" "^0.4.20"
     web3 "1.2.9"
 
+"@tulilabs/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tulilabs/core/-/core-1.0.0.tgz#7859e6b895da520fa02344f77103b4878fc963d6"
+  integrity sha512-PHLL25jabuARZknbsWUPAD4smqJo4Qb0icRAF31PGZpycmunpPJ9S36feL3UNNJc81PJXZM8JBluSw65t8of9A==
+  dependencies:
+    ethers "^5.0.19"
+
 "@typechain/ethers-v5@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@typechain/ethers-v5/-/ethers-v5-2.0.0.tgz#cd3ca1590240d587ca301f4c029b67bfccd08810"
@@ -1023,13 +1030,6 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
-
-"@zoralabs/core@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@zoralabs/core/-/core-1.0.3.tgz#a4ca994510a0fa4e3de82639c682fb1124bef35b"
-  integrity sha512-yLCbZMmjf59R2/BtUQiIxytHYKZRtGFhHLGwnN26FdAW8kN9lTmuZ41ijMujA14z0RT+xHpTa4L6DvfACc+Aag==
-  dependencies:
-    ethers "^5.0.19"
 
 abbrev@1:
   version "1.1.1"
