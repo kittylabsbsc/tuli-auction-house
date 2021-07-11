@@ -10,7 +10,7 @@ async function main() {
     throw new Error("--chainId chain ID is required");
   }
   const path = `${process.cwd()}/.env${
-    args.chainId === 56 ? ".prod" : args.chainId === 97 ? ".dev" : ".local"
+    args.chainId === 137 ? ".prod" : args.chainId === 97 ? ".dev" : ".local"
   }`;
   await require("dotenv").config({ path });
   const provider = new ethers.providers.JsonRpcProvider(
@@ -18,7 +18,7 @@ async function main() {
   );
   const wallet = new ethers.Wallet(`0x${process.env.PRIVATE_KEY}`, provider);
   const addressPath = `${process.cwd()}/addresses/${args.chainId}.json`;
-  const protocolAddressPath = `${process.cwd()}/node_modules/@tulilabslabs/core/dist/addresses/${
+  const protocolAddressPath = `${process.cwd()}/node_modules/@tulilabs/core/dist/addresses/${
     args.chainId
   }.json`;
 
